@@ -70,15 +70,7 @@ If backend URL is not `http://localhost:8000`, set `st.secrets["backend_url"]` o
 
 Mock inbox at `frontend/assets/mock_inbox.json`. Default prompts in `prompts/default_prompts.json`.
 
-## Demo video (5-10 min) checklist
 
-- Start backend and frontend
-- Load the mock inbox
-- Show Prompt Brain and edit a prompt live
-- Select an email, run processing (show category + extracted tasks)
-- Ask agent to "Summarize this email" and "Draft reply"
-- Save a draft and show it stored in the DB
-- Mention safety: drafts are stored, never sent automatically
 
 ## Notes / Next steps
 
