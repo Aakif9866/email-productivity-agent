@@ -2,7 +2,11 @@
 import streamlit as st
 import requests, json, os
 
-BACKEND = "http://localhost:8000"
+import streamlit as st
+
+BACKEND = st.secrets["backend_url"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
 
 st.set_page_config(page_title="Prompt-Driven Email Agent", layout="wide")
 
