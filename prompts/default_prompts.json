@@ -1,0 +1,6 @@
+{
+  "categorization_prompt": "Categorize the following email into one of: Important, Newsletter, Spam, To-Do, Social. Provide a one-line reason for the category. Rules: 'To-Do' must include a direct user action or request. 'Important' is for time-sensitive business-critical messages. Output JSON: {\"category\":\"\",\"reason\":\"\"}.",
+  "action_item_prompt": "Extract action items from the email. Return a JSON array of actions: [{\"task\":\"...\",\"deadline\":\"YYYY-MM-DD or null\",\"assignee\":\"me/other\",\"confidence\":0.0}]. If no task, return an empty array.",
+  "auto_reply_prompt": "Draft a reply using a polite professional tone. Use the email content and context when provided. If it's a meeting request, propose two time slots and ask for an agenda. Output JSON: {\"subject\":\"...\",\"body\":\"...\",\"suggested_followups\":[\"...\"]}. Keep body under ~200 words.",
+  "summarize_prompt": "Write a concise summary (2–3 lines) of the email and state whether immediate action is required ('yes' or 'no'). Output JSON: {\"summary\":\"...\",\"action_required\":\"yes/no\"}."
+}

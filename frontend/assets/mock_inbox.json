@@ -1,0 +1,110 @@
+[
+  {
+    "id": "e001",
+    "from": "alice@acme.com",
+    "to": "you@example.com",
+    "subject": "Project Sync — Request for meeting (Mon 11/24)",
+    "timestamp": "2025-11-10T09:12:00+05:30",
+    "body": "Hi,\n\nCan we schedule a 30-minute sync next Monday (Nov 24) to discuss deliverables and blockers? Please confirm availability and share an agenda if any.\n\nThanks,\nAlice",
+    "thread_id": "t001"
+  },
+  {
+    "id": "e002",
+    "from": "newsletter@technews.example",
+    "to": "you@example.com",
+    "subject": "Weekly Tech Roundup — Nov 10",
+    "timestamp": "2025-11-10T07:00:00+05:30",
+    "body": "Top stories this week: new ML libraries, venture funding... (subscribe to remove).",
+    "thread_id": "t002"
+  },
+  {
+    "id": "e003",
+    "from": "hr@company.example",
+    "to": "you@example.com",
+    "subject": "Action required: Complete mandatory compliance training",
+    "timestamp": "2025-11-09T16:45:00+05:30",
+    "body": "Dear employee,\n\nYou must complete the compliance course by Nov 21. Please finish the online module and upload the certificate.\n\nRegards,\nHR",
+    "thread_id": "t003"
+  },
+  {
+    "id": "e004",
+    "from": "bob@partner.example",
+    "to": "you@example.com",
+    "subject": "Task: Provide test dataset for model validation",
+    "timestamp": "2025-11-08T11:20:00+05:30",
+    "body": "Hi,\n\nCan you please share the anonymized test dataset and the preprocessing steps by Nov 18? We need it for the validation run.\n\nBest,\nBob",
+    "thread_id": "t004"
+  },
+  {
+    "id": "e005",
+    "from": "no-reply@offers.example",
+    "to": "you@example.com",
+    "subject": "You won a prize! Claim now",
+    "timestamp": "2025-11-07T02:00:00+05:30",
+    "body": "Congratulations! Click here to claim your prize. [suspicious link]",
+    "thread_id": "t005"
+  },
+  {
+    "id": "e006",
+    "from": "manager@company.example",
+    "to": "you@example.com",
+    "subject": "Weekly update: Q4 milestones",
+    "timestamp": "2025-11-06T15:30:00+05:30",
+    "body": "Team,\n\nPlease provide status updates on your tasks by EOD Friday. Key items: dataset cleaning, baseline metrics, and deployment plan.\n\nRegards,\nManager",
+    "thread_id": "t006"
+  },
+  {
+    "id": "e007",
+    "from": "friend@mail.example",
+    "to": "you@example.com",
+    "subject": "Lunch this Saturday?",
+    "timestamp": "2025-11-05T20:00:00+05:30",
+    "body": "Hey, free this Saturday for lunch at 1 pm?\n\n- Sam",
+    "thread_id": "t007"
+  },
+  {
+    "id": "e008",
+    "from": "recruiter@jobs.example",
+    "to": "you@example.com",
+    "subject": "Interview invite — Data Engineer role",
+    "timestamp": "2025-11-04T10:20:00+05:30",
+    "body": "Hello,\n\nWe'd like to invite you to a 45-min technical interview on Nov 19. Please confirm availability.\n\nRegards,\nRecruiter",
+    "thread_id": "t008"
+  },
+  {
+    "id": "e009",
+    "from": "service@billing.example",
+    "to": "you@example.com",
+    "subject": "Invoice #4523 for November",
+    "timestamp": "2025-11-03T08:05:00+05:30",
+    "body": "Attached is your invoice for this month. Payment due by Nov 30.",
+    "thread_id": "t009"
+  },
+  {
+    "id": "e010",
+    "from": "pm@client.example",
+    "to": "you@example.com",
+    "subject": "URGENT: Bug found in staging — help needed",
+    "timestamp": "2025-11-02T22:10:00+05:30",
+    "body": "Hi,\n\nWe discovered a critical bug in staging affecting the login flow. Steps to reproduce: ... Please prioritize a fix and update ETA.\n\nThanks,\nClient PM",
+    "thread_id": "t010"
+  },
+  {
+    "id": "e011",
+    "from": "alerts@monitoring.example",
+    "to": "you@example.com",
+    "subject": "Alert: CPU usage spike on server-12",
+    "timestamp": "2025-11-01T03:15:00+05:30",
+    "body": "At 03:10 UTC server-12 CPU > 95% for 9 minutes. Check processes and autoscaling.",
+    "thread_id": "t011"
+  },
+  {
+    "id": "e012",
+    "from": "colleague@company.example",
+    "to": "you@example.com",
+    "subject": "Can you review my PR? (#128)",
+    "timestamp": "2025-10-31T14:40:00+05:30",
+    "body": "Hey,\n\nI submitted PR #128 for feature X. Could you review and leave comments by Nov 12?\n\nCheers,\nColleague",
+    "thread_id": "t012"
+  }
+]
